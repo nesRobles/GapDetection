@@ -1,11 +1,8 @@
 # GapDetection
-
-
-# NesCo Retail Manager
-An on going retail management system built from a tutorial by https://www.iamtimcorey.com/
+An Application to Detect Gaps in an Excel Postion Rotation System.
 
 ## About The Project
-This is a mini retail register application with a simple UI design. This is a very in-depth tutorial based project designed to teach how to create a MVP application from start to finish.
+A position roatation system allows employess to be assigned a position at a given location with an area to perform a given task. 
 
 ## Project Description
 
