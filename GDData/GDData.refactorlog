@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f4bdd4ce-14d0-4d37-9228-f67d1cc11d59" ChangeDateTime="07/02/2022 00:31:25">
+    <Property Name="ElementName" Value="[dbo].[Venues].[Venue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Venues]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FullName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6c5ef828-0418-484f-9160-07f200f50760" ChangeDateTime="07/02/2022 00:32:40">
+    <Property Name="ElementName" Value="[dbo].[Venues].[FullName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Venues]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Venue" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac2e1906-bf74-400d-adc5-137f22eff80d" ChangeDateTime="07/02/2022 00:34:31">
+    <Property Name="ElementName" Value="[dbo].[Positions].[PosShortName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Positions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ShortName" />
+  </Operation>
+</Operations>

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapDetectionUI", "GapDetectionUI\GapDetectionUI.csproj", "{992C8087-ADC6-427D-B1B6-C4C30F1DD433}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GDData", "GDData\GDData.sqlproj", "{30B67BDC-D760-4629-9443-78F9CED58FE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapDetectionDataManager.Library", "GapDetectionDataManager.Library\GapDetectionDataManager.Library.csproj", "{BEAC7942-AC36-485E-8F0D-E73404817E84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFExcelBump.Library", "WPFExcelBump.Library\WPFExcelBump.Library.csproj", "{9F095A5B-0D72-4253-887E-DD945E2CB222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992C8087-ADC6-427D-B1B6-C4C30F1DD433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992C8087-ADC6-427D-B1B6-C4C30F1DD433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992C8087-ADC6-427D-B1B6-C4C30F1DD433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992C8087-ADC6-427D-B1B6-C4C30F1DD433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B67BDC-D760-4629-9443-78F9CED58FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B67BDC-D760-4629-9443-78F9CED58FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B67BDC-D760-4629-9443-78F9CED58FE4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30B67BDC-D760-4629-9443-78F9CED58FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B67BDC-D760-4629-9443-78F9CED58FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B67BDC-D760-4629-9443-78F9CED58FE4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BEAC7942-AC36-485E-8F0D-E73404817E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAC7942-AC36-485E-8F0D-E73404817E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAC7942-AC36-485E-8F0D-E73404817E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAC7942-AC36-485E-8F0D-E73404817E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F095A5B-0D72-4253-887E-DD945E2CB222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F095A5B-0D72-4253-887E-DD945E2CB222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F095A5B-0D72-4253-887E-DD945E2CB222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F095A5B-0D72-4253-887E-DD945E2CB222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {359635C7-DEC5-4036-96E7-7BFB63B0A705}
+	EndGlobalSection
+EndGlobal

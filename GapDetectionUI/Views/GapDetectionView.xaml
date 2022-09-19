@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="GapDetectionUI.Views.GapDetectionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GapDetectionUI.Views"
+             xmlns:Helpers="clr-namespace:GapDetectionUI.Helpers"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <DockPanel x:Name="RootDockPanel">
+            <Menu DockPanel.Dock="Top">
+                <Menu.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <DockPanel HorizontalAlignment="Stretch"/>
+                    </ItemsPanelTemplate>
+                </Menu.ItemsPanel>
+                <MenuItem Header="File" FontSize="15">
+                    <MenuItem x:Name="OpenBump" Header="_Open Bump"/>
+                    <MenuItem x:Name="CheckGaps" Header="Check Gaps"/>
+                    <MenuItem x:Name="MainMenu" Header="Main Menu"/>
+                </MenuItem>
+                <MenuItem Header="{Binding Venue}" HorizontalAlignment="Right" MinWidth="15">
+                </MenuItem>
+
+            </Menu>
+
+            <StackPanel>
+                <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                    <Grid x:Name="BumpGrid" Background="#BFBFBF" ShowGridLines="False"
+                    Helpers:GridHelper.ColumnCount="125" Helpers:GridHelper.RowCount="20">
+                    </Grid>
+                </ScrollViewer>
+                <Canvas Height="500">
+
+                </Canvas>
+
+
+            </StackPanel>
+            <Canvas DockPanel.Dock="Right">
+
+            </Canvas>
+        </DockPanel>
+    </Grid>
+</UserControl>
