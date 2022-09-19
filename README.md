@@ -12,7 +12,6 @@ The application allows you to create an area and create that area's positions an
 
 <img src=".JPG" alt="Logo" width="800" height="450">
 
-The program starts with a sign-in screen. There is a File tab to exit the application. Once signed in, the register window will open. An account tab is visible, which allows to sign-out back to the sign-in window. 
 
 <img src=".JPG" alt="Logo" width="800" height="450">
 
