@@ -44,7 +44,7 @@ namespace WPFExcelBump.Library.ExcelLogic
             excelBump.ExcelApp!.Visible = true;
 
             excelBump.WSBump = excelBump.WBBump.Worksheets["Bump"];
-            excelBump.WSGap = excelBump.WBBump.Worksheets["Gap Detection"];
+            //excelBump.WSGap = excelBump.WBBump.Worksheets["Gap Detection"];
 
             return isValidFile;
         }

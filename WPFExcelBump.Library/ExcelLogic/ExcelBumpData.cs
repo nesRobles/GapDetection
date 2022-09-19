@@ -19,9 +19,9 @@ namespace WPFExcelBump.Library.ExcelLogic
 
             GetExcelBumpRange(excelBump);
 
-            ReplaceNullCellWithItsFirstMergedCell(excelBump);
+            //ReplaceNullCellWithItsFirstMergedCell(excelBump);
 
-            ReplaceNullCellWithItsFirstMergedCell(excelBump);
+           //ReplaceNullCellWithItsFirstMergedCell(excelBump);
 
             SortGapDataIntoIntegerArray(excelBump, db, id);
         }
@@ -56,7 +56,20 @@ namespace WPFExcelBump.Library.ExcelLogic
 
         private static void GetExcelBumpRange(ExcelFileModel excelBump)
         {
-            excelBump.BumpElements = excelBump.WSBump!.Range[excelBump.WSBump.Cells[2, 1], excelBump.WSBump.Cells[excelBump.RowCount, excelBump.ColumnCount]].Value;
+            //excelBump.BumpElements = excelBump.WSBump!.Range[excelBump.WSBump.Cells[2, 1], excelBump.WSBump.Cells[excelBump.RowCount, excelBump.ColumnCount]].Value;
+            excelBump.BumpElements = new object[excelBump.RowCount, excelBump.ColumnCount];
+            for (int i = 1; i < excelBump.RowCount; i++)
+            {
+                for (int j = 1; j < excelBump.ColumnCount; j++)
+                {
+                    excelBump.BumpElements![i - 1, j - 1] = excelBump.WSBump!.Cells[i + 1, j].MergeArea(1, 1).Value;
+
+                    if (excelBump.BumpElements![i - 1, j - 1] == null)
+                    {
+                        excelBump.BumpElements![i - 1, j - 1] = "";
+                    }
+                }
+            }
         }
 
         private static void ReplaceNullCellWithItsFirstMergedCell(ExcelFileModel excelBump)
@@ -86,7 +99,7 @@ namespace WPFExcelBump.Library.ExcelLogic
             // Sorts Gap Data per Position and increments position duplication per time interval.
             string position = string.Empty;
             string? bumpElement = string.Empty;
-            List<PositionModel> positionsInLegend = db.GetVenuePositions(id);
+            List<PositionModel> positionsInLegend = db.GetVenuePositions(id).OrderBy(x => x.GapOrder).ToList();
             int[,] gapIntegerData = new int[positionsInLegend.Count, excelBump.ColumnCount];
 
             for (int i = 0; i < positionsInLegend.Count; i++)
@@ -96,7 +109,7 @@ namespace WPFExcelBump.Library.ExcelLogic
                     for (int k = 1; k < excelBump.ColumnCount; k++)
                     {
                         position = positionsInLegend[i].Position;
-                        bumpElement = excelBump.BumpElements![j, k].ToString();
+                        bumpElement = excelBump.BumpElements![j - 1, k - 1].ToString();
 
                         if (bumpElement == position)
                         {
