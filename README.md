@@ -2,7 +2,11 @@
 An Application to Detect Gaps in an Excel Postion Rotation System.
 
 ## About The Project
-A position roatation system allows employess to be assigned a position at a given location with an area to perform a given task. 
+A position rotation system assigns positions to an employee's shift, to perform that position's tasks. When creating this for multiple employees, errors can occur. Like when a certain position only needs one employee to have that position at any given moment in time. Sometimes multiple employees may be assigned that position at the same time, when only one employee should have that position at that given time. Or the certain position will not be assigned at all. 
+
+Therefor the need to check for gaps or duplications arises. To do this manually works but becomes harder when dealing with enormous amounts of employees. This application checks to see if there are any gaps for given positions that need to be assigned throughout the shifts. It also checks to see if any position has been assigned multiple times at a given time that should only be assigned once.
+
+The application allows you to create an area and create that area's positions and visually displays the gaps or duplications.
 
 ## Project Description
 
