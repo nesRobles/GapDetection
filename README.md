@@ -20,6 +20,8 @@ The settings window allows you to create a venue or select one. One the left sid
 
 From the main, select a venue and click the gap button. This will take you to the gap window.
 
+<img src="GapPics/.JPG" alt="Logo" width="1050" height="300">
+
 <img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="960" height="240">
 
 ## What I Learned
