@@ -12,15 +12,15 @@ The application allows you to create an area and create that area's positions an
 
 The main menu has a dropdown and two buttons. The dropdown allows you to choose a venue. The button on the left goes to the gap display window. The button on the right goes the settings window. 
 
-<img src="GapDetection/MainMenu.JPG" alt="Logo" width="800" height="450">
+<img src="GapPics/MainMenu.JPG" alt="Logo" width="600" height="250">
 
 The settings window allows you to create a venue or select one. One the left side of the window is where you add or delete a selected venue’s positions. You can also arrange the order of the positions as how they will appear in the gap detection display. Once you are done creating a venue/position, you can save the progress.
 
-<img src=".JPG" alt="Logo" width="800" height="450">
+<img src=".JPG" alt="Logo" width="600" height="450">
 
 
 
-## What I Learned 
+## What I Learned
 This application uses several design patterns and frameworks. It mostly focuses on ASP.NET WEB/API. Although it does use a little MVC, to talk to the database with api/controllers. The UI is setup wiith MVVM with the help of an IoC container. Using Caliburn.Micro, the container itializes dependency injection to decrease the dependencies higher level classes have to lower level classes, mostly through constructor injection, with Interface parameters.
 
 This project has helped me to learn how to properly setup an application for testability and scalability. How to separate my UI code from the logic, database and libraries. I've learned different design patterns and tools and how to implement them. This project is still ongoing and I hope to continue my knowledge and progress.  
