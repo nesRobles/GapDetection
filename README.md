@@ -24,7 +24,9 @@ From the main, select a venue and click the gap button. This will take you to th
 
 This is the menu tab. It has three options. The first is, Open File. This will allow you to open specific excel files to use with the application. The second is Check For Gaps. This will read the information on the excel file and translate it to the gap display window. The third is Main Menu. This will take you back to the main menu.
 
-<img src="GapPics/.JPG" alt="Logo" width="300" height="300">
+<img src="GapPics/GapMenu.JPG" alt="Logo" width="200" height="150">
+
+<img src="GapPics/Shifts1.JPG" alt="Logo" width="1050" height="300">
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="960" height="240">
 
