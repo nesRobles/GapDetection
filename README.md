@@ -18,11 +18,13 @@ The settings window allows you to create a venue or select one. One the left sid
 
 <img src="GapPics/Settings2.JPG" alt="Logo" width="600" height="300">
 
-From the main, select a venue and click the gap button. This will take you to the gap window.
+From the main, select a venue and click the gap button. This will take you to the gap window. The Gap window consists of a top and bottom time bar, two position legends and the center where the gap information will be displayed.
 
 <img src="GapPics/BlankView.JPG" alt="Logo" width="1050" height="300">
 
-The Gap window consists of a top and bottom time bar, two position legends and the center where the gap information will be displayed.
+This is the menu tab. It has three options. The first is, Open File. This will allow you to open specific excel files to use with the application. The second is Check For Gaps. This will read the information on the excel file and translate it to the gap display window. The third is Main Menu. This will take you back to the main menu.
+
+<img src="GapPics/.JPG" alt="Logo" width="300" height="300">
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="960" height="240">
 
