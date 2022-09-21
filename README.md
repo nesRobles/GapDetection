@@ -12,7 +12,7 @@ The application allows you to create an area and create that area's positions an
 
 The main menu has a dropdown and two buttons. The dropdown allows you to choose a venue. The button on the left goes to the gap display window. The button on the right goes the settings window. 
 
-<img src=".JPG" alt="Logo" width="800" height="450">
+<img src="GapDetection/MainMenu.JPG" alt="Logo" width="800" height="450">
 
 The settings window allows you to create a venue or select one. One the left side of the window is where you add or delete a selected venue’s positions. You can also arrange the order of the positions as how they will appear in the gap detection display. Once you are done creating a venue/position, you can save the progress.
 
