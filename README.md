@@ -30,11 +30,11 @@ This is the menu tab. It has three options. The first is, Open File. This will a
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="750" height="240">
 
-<img src="GapPics/EmptyPosition.JPG" alt="Logo" width="1050" height="300">
+<img src="GapPics/EmptyPosition.JPG" alt="Logo" width="1050" height="240">
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps2.JPG" alt="Logo" width="960" height="240">
 
-<img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="300">
+<img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="240">
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps3.JPG" alt="Logo" width="960" height="240">
 
