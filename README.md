@@ -32,11 +32,11 @@ This is the menu tab. It has three options. The first is, Open File. This will a
 
 <img src="GapPics/EmptyPosition.JPG" alt="Logo" width="1050" height="240">
 
-<img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps2.JPG" alt="Logo" width="960" height="240">
+<img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps2.JPG" alt="Logo" width="750" height="240">
 
 <img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="240">
 
-<img src="GapPics/Legend.JPG" alt="Logo" width="50" height="240"><img src="GapPics/Gaps3.JPG" alt="Logo" width="960" height="240">
+<img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps3.JPG" alt="Logo" width="750" height="240">
 
 ## What I Learned
 This application uses several design patterns and frameworks. It mostly focuses on ASP.NET WEB/API. Although it does use a little MVC, to talk to the database with api/controllers. The UI is setup wiith MVVM with the help of an IoC container. Using Caliburn.Micro, the container itializes dependency injection to decrease the dependencies higher level classes have to lower level classes, mostly through constructor injection, with Interface parameters.
