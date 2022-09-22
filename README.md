@@ -26,7 +26,11 @@ This is the menu tab. It has three options. The first is, Open File. This will a
 
 <img src="GapPics/GapMenu.JPG" alt="Logo" width="200" height="150">
 
+Select Open File. Choose the excel file. The excel will open. This is what it will look like. 
+
 <img src="GapPics/Shifts1.JPG" alt="Logo" width="1050" height="300">
+
+After the excel is opened, the select Check Gaps from the display menue. The gap display will now be filled with light blue squares.
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="750" height="240">
 
