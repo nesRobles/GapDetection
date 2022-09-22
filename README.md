@@ -28,7 +28,7 @@ This is the menu tab. It has three options. The first is, Open File. This will a
 
 <img src="GapPics/Shifts1.JPG" alt="Logo" width="1050" height="300">
 
-<img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="800" height="240">
+<img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="750" height="240">
 
 <img src="GapPics/EmptyPosition.JPG" alt="Logo" width="1050" height="240">
 
