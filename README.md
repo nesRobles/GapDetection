@@ -8,7 +8,22 @@ Therefore, the need to check for gaps or duplications arises. To do this manuall
 
 The application allows you to create an area and create that area's positions and visually displays the gaps or duplications.
 
-## Tools Used In Project.
+## Tools Used In Project
+
+[<img align="left" alt="Visual Studio Code" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][Visual Studio]
+[<img align="left" alt="CSharp" width="40px" src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" />][CSharp]
+<a href="https://caliburnmicro.com/" title="Home">Caliburn.Micro</a>
+[<img align="left" alt="Docker" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />][DOCKER]
+[<img align="left" alt="SQL" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][SQL]
+[<img align="left" alt="SQLite" width="120px" src="https://www.sqlite.org/images/sqlite370_banner.gif" />][SQLite] 
+
+[Visual Studio]: https://visualstudio.microsoft.com/
+[CSharp]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/
+[SQLite]: https://www.sqlite.org/index.html
+[DOCKER]: https://www.docker.com/
+[SQL]: https://docs.microsoft.com/en-us/sql/?view=sql-server-ver16
+<br>
+<br/>
 
 ## Project Description
 
@@ -46,7 +61,7 @@ As it is shown here. The blue squares have disappeared at the same time as it ap
 
 The program also checks for duplicatation in positions. If a position should only exist one time at any given point in time, the gray square will turn red and will display the number of times that position exist at that time. 
 
-As you can see the GTR position has changed to LD3. There is also another LD3 position three rows down as well.
+Here, the GTR position has changed to LD3. There is also another LD3 position three rows down as well.
 
 <img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="300">
 
