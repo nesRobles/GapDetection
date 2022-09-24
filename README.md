@@ -16,6 +16,7 @@ The application also allows you to create an area (Venue) and create that area's
 [<img align="left" alt="Docker" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />][DOCKER]
 [<img align="left" alt="SQL" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][SQL]
 [<img align="left" alt="SQLite" width="120px" src="https://www.sqlite.org/images/sqlite370_banner.gif" />][SQLite] 
+| XAML
 
 [Visual Studio]: https://visualstudio.microsoft.com/
 [CSharp]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/
