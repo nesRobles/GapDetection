@@ -18,7 +18,7 @@ The settings window allows you to create a venue or select one. One the left sid
 
 <img src="GapPics/Settings2.JPG" alt="Logo" width="600" height="300">
 
-From the main, select a venue and click the gap button. This will take you to the gap window. The Gap window consists of a top and bottom time bar, two position legends and the center where the gap information will be displayed.
+From the main, select a venue and click the gap button. This will take you to the gap window. The Gap window consists of a top and bottom time bar, two position legends and the center where the gap information will be displayed. In the middle there are dark gray squares. Each row of gray squars falls in line with a specific position on the position legend. The program will check if the position on the postion legend is represented in the excel file within that particular time interval. If it is, then the gray square will turn blue. If not, then it will stay gray.
 
 <img src="GapPics/Display1.jpg" alt="Logo" width="400" height="250">     <img src="GapPics/Display2.jpg" alt="Logo" width="400" height="251">
 
@@ -30,15 +30,25 @@ Select Open File. Choose the excel file. The excel will open. This is what it wi
 
 <img src="GapPics/Shifts1.JPG" alt="Logo" width="1050" height="300">
 
-After the excel is opened, the select Check Gaps from the display menue. The gap display will now be filled with light blue squares.
+After the excel is opened select Check Gaps from the display menue. The gap display will now be filled with light blue squares.
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps.JPG" alt="Logo" width="750" height="240">
 
-<img src="GapPics/EmptyPosition.JPG" alt="Logo" width="1050" height="240">
+To show an example: If you delete the "GTR" position from the excel file as it is shown here and then click on the Check Gaps button, the Gap Display should change the corrosponding blue squares back to gray. 
+
+<img src="GapPics/EmptyPosition.JPG" alt="Logo" width="1050" height="300">
+
+As it is shown here. The blue squares have disappeared at the same time as it appears on the excel file. As well as within the same row that the position exists on the position legend.
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps2.JPG" alt="Logo" width="750" height="240">
 
-<img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="240">
+The program also checks for duplicatation in positions. If a position should only exist one time at any given point in time, the gray square will turn red and will display the number of times that position exist at that time. 
+
+As you can see the GTR position has changed to LD3. There is also another LD3 position three rows down as well.
+
+<img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="300">
+
+As you see here, not only does the program show the GTR position empty in the same spot but it also show four red squares with the number of times LD3 exists at the same time.
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps3.JPG" alt="Logo" width="750" height="240">
 
