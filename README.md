@@ -2,11 +2,11 @@
 An Application to Detect Gaps in an Excel Postion Rotation System.
 
 ## About The Project
-When assiging all the positions an employee will work for their entire shift is very easy when only dealing with a few employees. It is only when there is an enormously increasing amount employees that errors can and will occur. Like when a certain position only needs one employee to have that position at any given moment in time. Sometimes multiple employees may be assigned that position at the same time, when only one employee should have that position at that given time. Or the certain position will not be assigned at all. 
+Assiging all the positions an employee will work for their entire shift is actually very easy when only dealing with a few employees. It is only when there is an enormously increasing amount employees that errors can and will occur. Like when a certain position only needs one employee to have that position at any given moment in time. Sometimes multiple employees may be assigned that position at the same time, when only one employee is required. Or the certain position will not be assigned at all. 
 
-Therefore, the need to check for gaps or duplications arises. To do this manually works but becomes harder when dealing with enormous amounts of employees. This application checks to see if there are any gaps for given positions that need to be assigned throughout the shifts. It also checks to see if any position has been assigned multiple times at a given time that should only be assigned once.
+Therefore, the need to check for gaps or duplications arises. This application checks to see if there are any gaps for given positions that need to be assigned throughout the shifts. It also checks to see if any position has been assigned multiple times at a given time that should only be assigned once.
 
-The application allows you to create an area and create that area's positions and visually displays the gaps or duplications.
+The application also allows you to create an area (Venue) and create that area's positions and then visually displays the gaps or duplications.
 
 ## Tools Used In Project
 
