@@ -53,6 +53,4 @@ As you see here, not only does the program show the GTR position empty in the sa
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps3.JPG" alt="Logo" width="750" height="240">
 
 ## What I Learned
-This application uses several design patterns and frameworks. It mostly focuses on ASP.NET WEB/API. Although it does use a little MVC, to talk to the database with api/controllers. The UI is setup wiith MVVM with the help of an IoC container. Using Caliburn.Micro, the container itializes dependency injection to decrease the dependencies higher level classes have to lower level classes, mostly through constructor injection, with Interface parameters.
-
-This project has helped me to learn how to properly setup an application for testability and scalability. How to separate my UI code from the logic, database and libraries. I've learned different design patterns and tools and how to implement them. This project is still ongoing and I hope to continue my knowledge and progress.  
+How to take a small application through inception to deployment. Setup and intergrate sqlite data file along with application. Separation of code through the use of MVVM, class libraries. Creating an IoC container to eliminate or reduce dependencies throughout the application. Setup a database to stored and manipulate data.   
