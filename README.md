@@ -65,7 +65,7 @@ Here, the GTR position has changed to LD3. There is also another LD3 position th
 
 <img src="GapPics/SHIFTSLD3.JPG" alt="Logo" width="1050" height="300">
 
-As you see here, not only does the program show the GTR position empty in the same spot but it also show four red squares with the number of times LD3 exists at the same time.
+As you see here, not only does the program show the GTR position empty in the same spot but it also show four red squares with the number of times LD3 exists at the same time. Which is 2 for each red square.
 
 <img src="GapPics/Legend.JPG" alt="Logo" width="60" height="240"><img src="GapPics/Gaps3.JPG" alt="Logo" width="750" height="240">
 
