@@ -8,6 +8,8 @@ Therefore, the need to check for gaps or duplications arises. To do this manuall
 
 The application allows you to create an area and create that area's positions and visually displays the gaps or duplications.
 
+## Tools Used In Project.
+
 ## Project Description
 
 The main menu has a dropdown and two buttons. The dropdown allows you to choose a venue. The button on the left goes to the gap display window. The button on the right goes the settings window. 
